@@ -1,0 +1,89 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #251542;
+}
+/* Containers */
+
+.container-fluid {
+  padding: 0%;
+}
+
+/* headings */
+.section-title {
+  font-family: "Montserrat-Black";
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+/* sections */
+.gray-section {
+  background-color: lightgray;
+  padding: 4.5%;
+}
+.profile-section {
+  background-color: lightgray;
+  padding: 4.5%;
+  text-align: center;
+}
+.white-section {
+  background-color: white;
+  padding: 4.5%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 2 0 1rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+  text-align: left;
+}
+.nav-link {
+  font-size: 1.4rem;
+  font-family: "Montserrat-Light";
+}
+
+/* about section */
+.rounded-circle {
+  border: 0.5rem solid rgba(207, 202, 192);
+}
+.name {
+  color: #200354;
+}
+/* Skills Section */
+
+#skills {
+  position: relative;
+}
+
+.skills_tools-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* Footer Section */
+
+.social-icon {
+  margin: 20px 10px;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+}
